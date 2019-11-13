@@ -194,7 +194,6 @@ xmlhttp.onreadystatechange = function () {
 
             }
         }
-        console.log(content)
 
         function createElements() {
             for (let index = First; index < First + length; index++) { //每页都创建	<div class="content">
