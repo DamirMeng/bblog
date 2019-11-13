@@ -38,7 +38,7 @@ body {
 }
 
 .flipbook .even {
-	background-image: -webkit-linear-gradient(left, #FFF 95%, #ce4141 100%);
+	background-image: -webkit-linear-gradient(left, #FFF 95%,  #ddd 100%);
 	background-image: -moz-linear-gradient(left, #FFF 95%, #ddd 100%);
 	background-image: -o-linear-gradient(left, #FFF 95%, #ddd 100%);
 	background-image: -ms-linear-gradient(left, #FFF 95%, #ddd 100%);
@@ -88,7 +88,7 @@ body {
 
 
 .flipbook .odd {
-	background-image: -webkit-linear-gradient(right, #FFF 95%, #aa1d1d 100%);
+	background-image: -webkit-linear-gradient(right, #FFF 95%, #ddd 100%);
 	background-image: -moz-linear-gradient(right, #FFF 95%, #ddd 100%);
 	background-image: -o-linear-gradient(right, #FFF 95%, #ddd 100%);
 	background-image: -ms-linear-gradient(right, #FFF 95%, #ddd 100%);
