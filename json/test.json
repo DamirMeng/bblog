@@ -1,0 +1,49 @@
+{
+    "method": "POST",
+    "action": "?m=Common&c=User&act=login",
+    "element": "form",
+    "class": "xh-form",
+    "childelements": [
+        {
+            "element": "div",
+            "class": ["xh-form-field", "xh-required"],
+            "childelements": {
+                "element": "div",
+                "class": "xh-form-control",
+                "childelements": {
+                    "element": "input",
+                    "type": "text",
+                    "name": "Username",
+                    "placeholder": "帐号",
+                    "value": "",
+                    "autofocus": "autofocus",
+                    "required": "required"
+                }
+            }
+        },
+        {
+            "element": "div",
+            "class": ["xh-form-field", "xh-required"],
+            "childelements": {
+                "element": "div",
+                "class": "xh-form-control",
+                "childelements": {
+                    "element": "input",
+                    "type": "password",
+                    "name": "Password",
+                    "placeholder": "密码",
+                    "required": "required"
+                }
+            }
+        }, {
+            "element": "div",
+            "class": "xh-form-button",
+            "childelements": {
+                "element": "button",
+                "type": "submit",
+                "class": ["xh-btn ", "xh-primary", "xh-block"],
+                "text": "登录"
+            }
+        }
+    ]
+}
