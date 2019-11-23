@@ -410,3 +410,17 @@ body {
 	-ms-box-shadow: 0 0 20px #ccc;
 	box-shadow: 0 0 20px #ccc;
 }
+#control{
+	position: fixed;
+bottom: 5%;
+left: 50%;
+transform: translate(-50%);
+}
+#pre,#content,#next{
+background-color: #ddffff;
+border: rgb(93, 183, 247) solid 2px;
+border-radius: 8px;
+margin: 6px;
+font-size: 40px;
+padding: 18px;
+}
