@@ -414,3 +414,18 @@ body {
 	background-image: -o-linear-gradient(right, #FFF 95%, #ddd 100%);
 	background-image: -ms-linear-gradient(right, #FFF 95%, #ddd 100%);
 }
+#control{
+		position: fixed;
+	bottom: 5%;
+	left: 50%;
+	transform: translate(-50%);
+}
+#pre,#content,#next{
+	background-color: #ddffff;
+    border: rgb(93, 183, 247) solid 2px;
+    border-radius: 8px;
+    margin: 6px;
+    font-size: 65px;
+    padding: 18px;
+}
+
