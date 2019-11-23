@@ -52,7 +52,7 @@
 	height: 76%;
 	margin-left: 13%;
 	margin-right: 10%;
-	font-size: 17px;
+	font-size: 14px;
 	overflow: hidden
 }
 
@@ -125,7 +125,7 @@
 }
 
 .information li {
-	font-size: 18px;
+	font-size: 12px;
 	margin: 8px 0;
 }
 
@@ -196,10 +196,10 @@
 .list-number li:first-child:after {
 	content: "";
 	width: 2px;
-	height: 38px;
+	height: 30px;
 	position: absolute;
 	background-color: #03A9F4;
-	transform: translate(460%, 0);
+	transform: translate(420%, 0);
 
 }
 
@@ -207,7 +207,7 @@
 .list-number li {
 	margin: 6px 0;
 	cursor: pointer;
-	font-size: 24px;
+	font-size: 18px;
 }
 
 .done,
